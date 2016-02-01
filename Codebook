@@ -1,0 +1,15 @@
+The inital data comes from Samsung data. It is then read in to the following 
+
+testData- This contains the test set. 
+testSub- This contians the test subject. 
+testLabel- This contains the test activity.
+
+trainData- This contains the train set. 
+trainSub- This contians the train subject. 
+trainLabel- This contains the train activity.
+
+The above data is comvined into merged and the columns that are kept (besides Subject and Activity) are ones that correspond to mean and standard deviation. The final summary output is a mean of each subjet and activity for the data set. 
+
+ 
+Notes on columns names. 
+For Columns that end in x, y, or z that corresponds to the axis the measurement was taken in. 
